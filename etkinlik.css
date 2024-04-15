@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8f8f7;
+}
+
+.baslik {
+  margin: 20px;
+  padding: 20px;
+  font-style: italic;
+}
+
+.aciklama {
+  width: 60%;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-radius: 5px;
+  font-style: italic;
+}
+
+.kutucuk {
+  width: 30%;
+  margin: 20px;
+  padding: 15px;
+  display: inline-block;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-radius: 5px;
+  font-style: italic;
+}
+
+.etkinlikler {
+  margin: 20px;
+  padding: 20px;
+}
+.footer {
+  background-color: #f8f8f7;
+  color: black;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: black;
+  margin: 0 15px;
+}
+
+.footer-icons {
+  display: flex;
+}
+
+.social-icon {
+  color: black;
+  margin: 0 10px;
+  font-size: 20px;
+}

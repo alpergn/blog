@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8f8f7;
+  font-style: italic;
+}
+
+.baslik {
+  margin: 20px;
+  padding: 20px;
+}
+
+.aciklama {
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-size: 20px;
+}
+.neden {
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.abone-formu {
+  max-width: 400px;
+  margin: 20px auto;
+  font-size: 20px
+}
+
+.abonelik-ucretleri {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.abonelik {
+  width: 30%;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.abone-formu {
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.abone-formu label,
+.abone-formu input,
+.abone-formu button {
+  width: 200px;
+  height: 50px;
+  display: block;
+  margin: 10px auto;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.abonelik {
+  width: 30%;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out;
+  border-radius: 10px;
+  margin-bottom: 100px;
+}
+
+.abonelik:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.abonelik h4 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.abonelik p {
+  font-size: 2em;
+  font-weight: bold;
+}
+.footer {
+  background-color: #f8f8f7;
+  color: black;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: black;
+  margin: 0 15px;
+}
+
+.footer-icons {
+  display: flex;
+}
+
+.social-icon {
+  color: black;
+  margin: 0 10px;
+  font-size: 20px;
+}
